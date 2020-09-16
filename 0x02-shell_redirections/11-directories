@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($(find -type d | wc -1) -1))
+ls -la | find -type d ! -inmane '.' | wc -l
