@@ -1,0 +1,1 @@
+This projects is about special characters and redactions.
