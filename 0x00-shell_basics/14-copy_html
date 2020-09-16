@@ -1,4 +1,2 @@
 #!/bin/bash
-ls
-
-mv[[:upper:]]*/tmp/u
+cp-u./*.html ..
