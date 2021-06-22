@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Through the name I get its id
+ps aux | grep "bash"
