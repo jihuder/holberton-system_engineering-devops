@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Displays processes containing the same name
+pgrep -l "bash"
