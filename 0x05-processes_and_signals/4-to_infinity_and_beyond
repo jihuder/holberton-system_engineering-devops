@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#we print indefinitely one line by means of a cycle
+while :
+do    echo To infinity and beyond
+      sleep 2
+done
