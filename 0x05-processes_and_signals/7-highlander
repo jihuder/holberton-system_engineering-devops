@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#impreme two lines in and out of the loop
+trap "echo I am invincible!!!" SIGTERM
+while :
+do    echo To infinity and beyond
+      sleep 2
+done
