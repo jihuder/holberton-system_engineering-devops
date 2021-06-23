@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# contents of the passwd file
+
+while read -r l
+do
+	echo "$l" | cut -d':' -f1,3,6
+done </etc/passwd
