@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script of the ports 22 80 443
+netstat -lp
