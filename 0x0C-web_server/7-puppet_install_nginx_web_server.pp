@@ -1,4 +1,4 @@
-# Installs NGINX using puppet
+# Installs NGINX using  puppet
 package {'Install nginx':
 ensure => installed,
 name   => 'nginx',
