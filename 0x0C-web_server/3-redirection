@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # redirecting to another  page
 
-apt-get update -y
-apt-get install nginx -y
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sed -i '/root /var/www/html;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
-service nginx restart
+sudo apt-get update -y
+sudo apt-get install nginx -y
+sudo chown -R "$USER":"$USER" /var/www/
+sudo chown -R "$USER":"$USER" /etc/nginx
+sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+sudo service nginx restart
