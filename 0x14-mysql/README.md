@@ -1,4 +1,5 @@
 MySQL
+
 MySQL, the most popular Open Source SQL database management system, is developed, distributed, and supported by Oracle Corporation.
 
 The MySQL website (http://www.mysql.com/) provides the latest information about MySQL software.
